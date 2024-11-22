@@ -1,0 +1,7 @@
+show-icons = true
+icon-size = 24
+icon-theme = "Adwaita"
+allow_images=true
+image_size=32
+location=center
+no_actions=true
