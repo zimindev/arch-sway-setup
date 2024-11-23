@@ -27,8 +27,14 @@
 ## Install USB utility:
 `sudo pacman -S udisks2 udiskie`
 
-## Install USB utility:
-`sudo pacman -S udisks2 udiskie`
+## Install Git:
+`sudo pacman -S git`
+
+##Install AUR:
+
+>`git clone https://aur.archlinux.org/yay.git`
+>`cd yay`
+>`makepkg -si`
 
 ### Install other packages:
 
@@ -86,7 +92,8 @@
 - `libreoffice-still`
 
 ## Command for fust install packages:
-`sudo pacman -S bpytop htop neofetch udisksd duf pcmanfm ranger mousepad firefox lynx qutebrowser remmina freerdp filezilla xarchiver p7zip vlc mpv mpvpaper keepassxc libreoffice-still grim slurp mtpaint`
 
-`yay -S visual-studio-code-bin goole-chrome`
+`sudo pacman -S bpytop htop neofetch udisksd duf pcmanfm ranger mousepad firefox lynx qutebrowser remmina freerdp filezilla xarchiver p7zip vlc mpv keepassxc libreoffice-still grim slurp mtpaint`
+
+`yay -S visual-studio-code-bin goole-chrome mpvpaper`
 
