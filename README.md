@@ -12,7 +12,7 @@
 
 `gtk-icon-theme-name="breeze-dark"`
 
-## Install first theme and utility (open terminal):
+## Install theme and utility (open terminal):
 `sudo pacman -S breeze breeze-gtk breeze-icons mako wofi `
 
 ## Install fonts:
