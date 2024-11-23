@@ -1,5 +1,13 @@
 # Archi Linux / Sway / my Setup
 
+## Clone files in this repo to:
+`/home/username/.config `
+
+## Create file .gtkrc-2.0 in folder:
+`/home/username/ `
+
+> Add this text to file next `gtk-theme-name="Breeze-Dark" gtk-icon-theme-name="breeze-dark"
+
 ## Install first theme and utility (open terminal):
 `sudo pacman -S breeze breeze-gtk breeze-icons mako wofi `
 
