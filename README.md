@@ -47,53 +47,53 @@
 - `udisksd`
 - `duf`
 
-## File Manager:
+#### File Manager:
 - `pcmanfm`
 - `ranger`
 
-## Text Editor:
+#### Text Editor:
 - `mousepad`
 
-## Images Editor:
+#### Images Editor:
 - `mtpaint`
 
-## Screen Shot:
+#### Screen Shot:
 - `grim`
 - `slurp`
 
-## Code Editor:
+#### Code Editor:
 - `visual-studio-code-bin`
 
-## Browser:
+#### Browser:
 - `firefox`
 - `lynx`
 - `qutebrowser`
 
-## Remote Desktop:
+#### Remote Desktop:
 - `remmina`
 - `freerdp`
 
-## FTP:
+#### FTP:
 - `filezilla`
 
-## Zip Archiver:
+#### Zip Archiver:
 - `xarchiver`
 - `p7zip`
   
-## Media Player:
+#### Media Player:
 - `vlc`
 - `mpv`
 
-## Live Wallpaper:
+#### Live Wallpaper:
 - `mpvpaper`
 
-## Security:
+#### Security:
 - `keepassxc`
 
-## Office:
+#### Office:
 - `libreoffice-still`
 
-## Command for fust install packages:
+#### Command for fust install packages:
 
 `sudo pacman -S bpytop htop neofetch udisksd duf pcmanfm ranger mousepad firefox lynx qutebrowser remmina freerdp filezilla xarchiver p7zip vlc mpv keepassxc libreoffice-still grim slurp mtpaint`
 
