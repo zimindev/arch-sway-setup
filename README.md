@@ -1,4 +1,5 @@
 # Archi Linux / Sway / my Setup
+
 ## Install first theme and utility (open terminal):
 `sudo pacman -S breeze breeze-gtk breeze-icons mako wofi `
 
@@ -12,4 +13,4 @@
 > Send test alert `notify-send "🔔 Alert" "This is test 🎉"`
 
 ## Install USB utility:
-`sudo pacman -S udisk udiskie`
+`sudo pacman -S udisks2 udiskie`
