@@ -4,12 +4,12 @@
 
 ##Install fonts:
 `sudo pacman -S noto-fonts noto-fonts-emoji`
+
 > Clear fonts cache `fc-cache -rv`
-> Reboot system `reboot`
+
+> Reboot system command `reboot`
+
 > Send test alert `notify-send "🔔 Alert" "This is test 🎉"`
 
 ##Install USB utility:
-`sudo pacman -S noto-fonts noto-fonts-emoji`
-> Clear fonts cache `fc-cache -rv`
-> Reboot system `reboot`
-> Send test alert `notify-send "🔔 Alert" "This is test 🎉"`
+`sudo pacman -S udisk udiskie`
