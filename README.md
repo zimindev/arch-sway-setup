@@ -33,7 +33,9 @@
 ## Install AUR:
 
 >`git clone https://aur.archlinux.org/yay.git`
+
 >`cd yay`
+
 >`makepkg -si`
 
 ### Install other packages:
