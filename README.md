@@ -30,7 +30,7 @@
 ## Install Git:
 `sudo pacman -S git`
 
-##Install AUR:
+## Install AUR:
 
 >`git clone https://aur.archlinux.org/yay.git`
 >`cd yay`
