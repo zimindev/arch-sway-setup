@@ -1,6 +1,6 @@
 # Archi Linux / Sway / my Setup
 
-## Clone files in this repo to:
+### Clone files in this repo to:
 `/home/username/.config `
 
 ## Create file .gtkrc-2.0 in folder:
@@ -12,10 +12,10 @@
 
 `gtk-icon-theme-name="breeze-dark"`
 
-## Install theme and utility (open terminal):
+### Install theme and utility (open terminal):
 `sudo pacman -S breeze breeze-gtk breeze-icons mako wofi `
 
-## Install fonts:
+### Install fonts:
 `sudo pacman -S noto-fonts noto-fonts-emoji`
 
 > Clear fonts cache `fc-cache -rv`
@@ -24,13 +24,13 @@
 
 > Send test alert `notify-send "🔔 Alert" "This is test 🎉"`
 
-## Install USB utility:
+### Install USB utility:
 `sudo pacman -S udisks2 udiskie`
 
-## Install Git:
+### Install Git:
 `sudo pacman -S git`
 
-## Install AUR:
+### Install AUR:
 
 >`git clone https://aur.archlinux.org/yay.git`
 
@@ -40,7 +40,7 @@
 
 ### Install other packages:
 
-## Utilities:
+#### Utilities:
 - `bpytop`
 - `htop`
 - `neofetch`
