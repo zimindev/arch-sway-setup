@@ -2,10 +2,8 @@ exec mpvpaper  -vs -o "no-audio loop" eDP-1 /home/domino/Video/white.webm
 #exec mpvpaper -vs -o "no-audio loop" HDMI-A-1 /home/domino/Video/city.webm #for 2 monitor
 exec mako
 exec udiskie
-exec waybar
 
 #exec waybar - delete this?
-
 
 # Variables
 # Logo key. Use Mod1 for Alt.
@@ -256,10 +254,14 @@ client.background       $color7
 #
 # Keyboard layout:
 #
-	input * {
+
+ input * {
 		xkb_layout us,ua,ru
 		xkb_options grp:alt_shift_toggle
 }
+
+input * xkb_numlock enabled # Num Lock enable after start system
+
 
 #
 # Scratchpad:
