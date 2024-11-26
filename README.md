@@ -1,3 +1,4 @@
+![Dashboard Screenshot](img/arch-sway-setup.png)
 
 # Arch Linux / Sway / My Setup
 ---
