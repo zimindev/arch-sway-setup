@@ -170,3 +170,49 @@ yay -S visual-studio-code-bin google-chrome mpvpaper
 - **`Fn+PrintScreen`**: Capture a screenshot  
 
 ---
+
+
+---
+
+### **Basic Window Operations**
+- **`Mod+Enter`** — Open a terminal.  
+- **`Mod+Shift+Q`** — Close the active window.  
+- **`Mod+Arrow keys`** — Navigate between windows.  
+- **`Mod+Shift+Arrow keys`** — Move the active window in the specified direction.  
+- **`Mod+F`** — Toggle fullscreen mode.  
+- **`Mod+S`** — Switch the active window to stacking layout.  
+- **`Mod+W`** — Switch the active window to tabbed layout.  
+- **`Mod+E`** — Switch the active window to tiled layout.  
+
+---
+
+### **Workspaces**
+- **`Mod+1..9`** — Switch to workspace 1-9.  
+- **`Mod+Shift+1..9`** — Move the active window to workspace 1-9.  
+
+---
+
+### **Screen Splitting**
+- **`Mod+V`** — Split windows vertically.  
+- **`Mod+H`** — Split windows horizontally.  
+
+---
+
+### **Resizing**
+- **`Mod+Right Mouse Button`** — Resize a window manually.  
+- **`Mod+R`** — Toggle resize mode, then use **Arrow keys** to resize the active window.  
+
+---
+
+### **Restart and Exit**
+- **`Mod+Shift+C`** — Reload configuration (`sway config`).  
+- **`Mod+Shift+E`** — Exit Sway.  
+- **`Mod+Shift+R`** — Restart Sway.  
+
+---
+
+### **Other Useful Keybindings**
+- **`Mod+P`** — Open output menu (change connected monitors).  
+- **`Mod+D`** — Open application launcher (usually **wofi**).  
+- **`Mod+L`** — Lock the screen (requires `swaylock`).  
+- **`Mod+Shift+S`** — Take a screenshot (requires `grim` and `slurp`).  
