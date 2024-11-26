@@ -1,124 +1,174 @@
-# Archi Linux / Sway / my Setup
 
-### Clone files in this repo to:
-`/home/username/.config `
+# Arch Linux / Sway / My Setup
 
-## Create file .gtkrc-2.0 in folder:
-`/home/username/ `
+---
 
-> Add this text to file next
+## Clone Configuration Files  
+Clone the files in this repository to:  
+```bash
+/home/username/.config
+```
 
-`gtk-theme-name="Breeze-Dark"`
+---
 
-`gtk-icon-theme-name="breeze-dark"`
+## Create GTK Configuration File  
+Create a file named `.gtkrc-2.0` in the folder:  
+```bash
+/home/username/
+```
 
-### Install theme and utility (open terminal):
-`sudo pacman -S breeze breeze-gtk breeze-icons mako wofi `
+### Add the following content to the file:  
+```text
+gtk-theme-name="Breeze-Dark"
+gtk-icon-theme-name="breeze-dark"
+```
 
-### Install fonts:
-`sudo pacman -S noto-fonts noto-fonts-emoji`
+---
 
-> Clear fonts cache `fc-cache -rv`
+## Install Themes and Utilities  
+Open a terminal and run:  
+```bash
+sudo pacman -S breeze breeze-gtk breeze-icons mako wofi
+```
 
-> Reboot system `reboot`
+---
 
-> Send test alert `notify-send "🔔 Alert" "This is test 🎉"`
+## Install Fonts  
+```bash
+sudo pacman -S noto-fonts noto-fonts-emoji
+```
 
-### Install USB utility:
-`sudo pacman -S udisks2 udiskie`
+### Clear Font Cache  
+```bash
+fc-cache -rv
+```
 
-### Install Git:
-`sudo pacman -S git`
+### Reboot the System  
+```bash
+reboot
+```
 
-### Install AUR:
+### Test Notifications  
+Send a test alert:  
+```bash
+notify-send "🔔 Alert" "This is test 🎉"
+```
 
->`git clone https://aur.archlinux.org/yay.git`
+---
 
->`cd yay`
+## Install USB Utility  
+```bash
+sudo pacman -S udisks2 udiskie
+```
 
->`makepkg -si`
+---
 
-### Install other packages:
+## Install Git  
+```bash
+sudo pacman -S git
+```
 
-#### Utilities:
+---
+
+## Install AUR Helper  
+1. Clone the `yay` repository:  
+   ```bash
+   git clone https://aur.archlinux.org/yay.git
+   ```
+2. Navigate to the folder:  
+   ```bash
+   cd yay
+   ```
+3. Build and install the package:  
+   ```bash
+   makepkg -si
+   ```
+
+---
+
+## Install Additional Packages  
+
+### Utilities  
 - `bpytop`
 - `htop`
 - `neofetch`
 - `udisksd`
 - `duf`
 
-#### File Manager:
+### File Managers  
 - `pcmanfm`
 - `ranger`
 
-#### Text Editor:
+### Text Editor  
 - `mousepad`
 
-#### Images Editor:
+### Image Editor  
 - `mtpaint`
 
-#### Screen Shot:
+### Screenshot Tools  
 - `grim`
 - `slurp`
 
-#### Code Editor:
+### Code Editor  
 - `visual-studio-code-bin`
 
-#### Browser:
+### Browsers  
 - `firefox`
 - `lynx`
 - `qutebrowser`
 
-#### Remote Desktop:
+### Remote Desktop Tools  
 - `remmina`
 - `freerdp`
 
-#### FTP:
+### FTP Client  
 - `filezilla`
 
-#### Zip Archiver:
+### Archiver Tools  
 - `xarchiver`
 - `p7zip`
-  
-#### Media Player:
+
+### Media Players  
 - `vlc`
 - `mpv`
 
-#### Live Wallpaper:
+### Live Wallpaper Utility  
 - `mpvpaper`
 
-#### Security:
+### Security Tools  
 - `keepassxc`
 
-#### Office:
+### Office Suite  
 - `libreoffice-still`
 
-### Command for fust install packages:
+---
 
-#### Pacman:
-`sudo pacman -S bpytop htop neofetch udisksd duf pcmanfm ranger mousepad firefox lynx qutebrowser remmina freerdp filezilla xarchiver p7zip vlc mpv keepassxc libreoffice-still grim slurp mtpaint`
+## Install All Packages Quickly  
 
-#### AUR:
-`yay -S visual-studio-code-bin goole-chrome mpvpaper`
+### Using Pacman  
+```bash
+sudo pacman -S bpytop htop neofetch udisksd duf pcmanfm ranger mousepad firefox lynx qutebrowser remmina freerdp filezilla xarchiver p7zip vlc mpv keepassxc libreoffice-still grim slurp mtpaint
+```
 
-# Archi Linux / Sway / HotKeys / my Setup
-`Mod+I` - open Google Chrome
+### Using AUR  
+```bash
+yay -S visual-studio-code-bin google-chrome mpvpaper
+```
 
-`Mod+C` - open Visual Studio Code
+---
 
-`Mod+Z` - open FileZilla
+# Arch Linux / Sway / Hotkeys Setup  
 
-`Mod+X` - open Xarchiver
+### Application Shortcuts  
+- **`Mod+I`**: Open Google Chrome  
+- **`Mod+C`**: Open Visual Studio Code  
+- **`Mod+Z`**: Open FileZilla  
+- **`Mod+X`**: Open Xarchiver  
+- **`Mod+M`**: Open File Manager (`pcmanfm`)  
+- **`Mod+N`**: Open Notepad (`mousepad`)  
+- **`Mod+P`**: Open Paint (`mtpaint`)  
 
-`Mod+M` - open File Manager (pcmanfm)
+### Screenshots  
+- **`Fn+PrintScreen`**: Capture a screenshot  
 
-`Mod+N` - open NotePad (mousepad)
-
-`Mod+P` - open Paint (mtpaint)
-
-`Fn+PrintScreen` - Screen Shot
-
-
-
-
-
+---
