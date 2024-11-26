@@ -114,7 +114,9 @@
 
 `Mod+N` - open NotePad (mousepad)
 
-`Mod+N` - open NotePad
+`Mod+P` - open Paint (mtpaint)
+
+`Fn+PrintScreen` - Screen Shot
 
 
 
