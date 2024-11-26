@@ -103,11 +103,17 @@
 
 # Archi Linux / Sway / HotKeys / my Setup
 `Mod+I` - open Google Chrome
+
 `Mod+C` - open Visual Studio Code
+
 `Mod+Z` - open FileZilla
+
 `Mod+X` - open Xarchiver
+
 `Mod+M` - open File Manager (pcmanfm)
+
 `Mod+N` - open NotePad (mousepad)
+
 `Mod+N` - open NotePad
 
 
