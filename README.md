@@ -93,9 +93,11 @@
 #### Office:
 - `libreoffice-still`
 
-#### Command for fust install packages:
+### Command for fust install packages:
 
+#### Pacman:
 `sudo pacman -S bpytop htop neofetch udisksd duf pcmanfm ranger mousepad firefox lynx qutebrowser remmina freerdp filezilla xarchiver p7zip vlc mpv keepassxc libreoffice-still grim slurp mtpaint`
 
+#### AUR:
 `yay -S visual-studio-code-bin goole-chrome mpvpaper`
 
