@@ -1,6 +1,5 @@
 
 # Arch Linux / Sway / My Setup
-
 ---
 
 ## Clone Configuration Files  
