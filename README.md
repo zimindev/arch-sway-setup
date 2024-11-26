@@ -1,5 +1,4 @@
 ![Screenshot](img/arch-sway-setup.png)
-![Screenshot](img/arch-sway-setup1.png)
 ![Screenshot](img/arch-sway-setup2.png)
 ![Screenshot](img/arch-sway-setup3.png)
 
