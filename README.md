@@ -36,7 +36,8 @@ sudo pacman -S breeze breeze-gtk breeze-icons mako wofi
 
 ## Install Fonts  
 ```bash
-sudo pacman -S noto-fonts noto-fonts-emoji
+sudo pacman -S noto-fonts noto-fonts-emoji ttf-font-awesome
+
 ```
 
 ### Clear Font Cache  
